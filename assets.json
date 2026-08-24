@@ -7,7 +7,7 @@
     "chainId": "1",
     "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -18,7 +18,7 @@
     "chainId": "1",
     "contractAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -29,7 +29,7 @@
     "chainId": "11155111",
     "contractAddress": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png"
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png"
   },
   {
     "id": "432daa58-c3e0-4870-b09f-c751d8c1cdc1",
@@ -39,7 +39,7 @@
     "chainId": "1",
     "contractAddress": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
     "decimals": 18,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/BNB.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/BNB.png",
     "coinGeckoId": "binancecoin"
   },
   {
@@ -51,7 +51,7 @@
     "contractAddress": "0x909ef0b6cF52B7cB2B3390F7e8147997E3A2E52D",
     "mintContractAddress": "0x488076715Eb6042Bf8Fc5C6cA82CDB630225f1F5",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/Pocket.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
     "vaultAddress": "ea98fa1be6e73403cd2f8c70146b0402172307b9"
   },
   {
@@ -63,7 +63,7 @@
     "contractAddress": "0x67F4C72a50f8Df6487720261E188F2abE83F57D7",
     "mintContractAddress": "0x0d006D9e862B362180eb602e5973Fd1fdb6f78dd",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/Pocket.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
     "vaultAddress": "2eb054616797de8565506333afb334655e7774ed",
     "coinGeckoId": "wrapped-pokt"
   },
@@ -75,7 +75,7 @@
     "chainId": "56",
     "contractAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -86,7 +86,7 @@
     "chainId": "56",
     "contractAddress": "0x55d398326f99059fF775485246999027B3197955",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -97,7 +97,7 @@
     "chainId": "137",
     "contractAddress": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -108,7 +108,7 @@
     "chainId": "137",
     "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -119,7 +119,7 @@
     "chainId": "137",
     "contractAddress": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F",
     "decimals": 18,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/BNB.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/BNB.png",
     "coinGeckoId": "binancecoin"
   },
   {
@@ -130,7 +130,7 @@
     "chainId": "10",
     "contractAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -141,7 +141,7 @@
     "chainId": "10",
     "contractAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -152,7 +152,7 @@
     "chainId": "42161",
     "contractAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -163,7 +163,7 @@
     "chainId": "42161",
     "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -174,7 +174,7 @@
     "chainId": "100",
     "contractAddress": "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -185,7 +185,7 @@
     "chainId": "100",
     "contractAddress": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -196,7 +196,7 @@
     "chainId": "43114",
     "contractAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -207,7 +207,7 @@
     "chainId": "43114",
     "contractAddress": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -218,7 +218,7 @@
     "chainId": "43114",
     "contractAddress": "0x264c1383EA520f73dd837F915ef3a732e204a493",
     "decimals": 18,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/BNB.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/BNB.png",
     "coinGeckoId": "binancecoin"
   },
   {
@@ -229,7 +229,7 @@
     "chainId": "250",
     "contractAddress": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDC.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDC.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -240,7 +240,7 @@
     "chainId": "250",
     "contractAddress": "0xcc1b99dDAc1a33c201a742A1851662E87BC7f22C",
     "decimals": 6,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/USDT.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/USDT.png",
     "coinGeckoId": "tether"
   },
   {
@@ -251,7 +251,7 @@
     "chainId": "250",
     "contractAddress": "0xD67de0e0a0Fd7b15dC8348Bb9BE742F3c5850454",
     "decimals": 18,
-    "iconUrl": "https://poktscan-v1.nyc3.cdn.digitaloceanspaces.com/chains-images/BNB.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/BNB.png",
     "coinGeckoId": "binancecoin"
   }
 ]
