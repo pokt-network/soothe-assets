@@ -7,26 +7,25 @@
     "currencySymbol": "POKT",
     "decimals": 6,
     "isTestnet": true,
-    "isDefault": true,
+    "isDefault": false,
     "coinGeckoId": "",
     "iconUrl": "https://soothe-vault.nyc3.cdn.digitaloceanspaces.com/chains-images/Pocket.png",
     "rpcUrl": "https://rpc.testnet.pokt.network/lb/6d6f727365/",
-    "explorerAccountUrl": "https://morse.poktscan.com/testnet/account/:address",
-    "explorerTransactionUrl": "https://morse.poktscan.com/testnet/tx/:hash",
+    "explorerAccountUrl": "https://morse.pocket.network/testnet/account/:address",
+    "explorerTransactionUrl": "https://morse.pocket.network/testnet/tx/:hash",
     "chainIdLabel": "Pocket (Morse Testnet)",
     "transferMinValue": "0.000001",
     "notices": [
       {
-        "name": "WPOKT-Not-Supported",
-        "descriptionTitle": "Swap Not Supported",
-        "disables": ["Swap", "Send"],
-        "descriptionContent": "The WPOKT bridge in testnet is to Ethereum Goerli, and it has been deprecated.",
-        "references": [
-          {
-            "title": "Say Goodbye to Goerli and Hello to Sepolia!",
-            "url": "https://www.alchemy.com/blog/goerli-faucet-deprecation"
-          }
-        ]
+        "name": "Morse-Shutdown",
+        "descriptionTitle": "Morse network has been shut down",
+        "disables": [
+          "Balance",
+          "Send",
+          "Swap",
+          "PoktTransactionActions"
+        ],
+        "descriptionContent": "The Pocket Morse chain is no longer producing blocks, so balances and transactions are not available. Migrate your Morse accounts to Shannon (Pocket Mainnet) to access your POKT."
       }
     ]
   },
@@ -87,7 +86,7 @@
     "currencySymbol": "POKT",
     "decimals": 6,
     "isTestnet": true,
-    "isDefault": false,
+    "isDefault": true,
     "coinGeckoId": "",
     "iconUrl": "https://soothe-vault.nyc3.cdn.digitaloceanspaces.com/chains-images/Shannon.png",
     "rpcUrl": "https://sauron-rpc.beta.infra.pocket.network",
@@ -97,7 +96,7 @@
     "chainIdLabel": "Beta",
     "transferMinValue": "0.000001",
     "addressPrefix": "pokt",
-    "isProtocolDefault": true,
+    "isProtocolDefault": false,
     "defaultGasPrice": 0.001,
     "defaultGasAdjustment": 1.5,
     "defaultGasUsed": "auto",
@@ -140,11 +139,24 @@
     "isDefault": true,
     "iconUrl": "https://soothe-vault.nyc3.cdn.digitaloceanspaces.com/chains-images/Pocket.png",
     "rpcUrl": "https://pocket.tango.admin.poktscan.cloud",
-    "explorerAccountUrl": "https://morse.poktscan.com/account/:address",
-    "explorerTransactionUrl": "https://morse.poktscan.com/tx/:hash",
+    "explorerAccountUrl": "https://morse.pocket.network/account/:address",
+    "explorerTransactionUrl": "https://morse.pocket.network/tx/:hash",
     "chainIdLabel": "Pocket (Morse Mainnet)",
     "transferMinValue": "0.000001",
-    "isProtocolDefault": true
+    "isProtocolDefault": true,
+    "notices": [
+      {
+        "name": "Morse-Shutdown",
+        "descriptionTitle": "Morse network has been shut down",
+        "disables": [
+          "Balance",
+          "Send",
+          "Swap",
+          "PoktTransactionActions"
+        ],
+        "descriptionContent": "The Pocket Morse chain is no longer producing blocks, so balances and transactions are not available. Migrate your Morse accounts to Shannon (Pocket Mainnet) to access your POKT."
+      }
+    ]
   },
   {
     "id": "9073bf35-e2f7-4354-a011-8bb84f352fe8",
@@ -322,7 +334,7 @@
     "isTestnet": true,
     "isDefault": false,
     "iconUrl": "https://soothe-vault.nyc3.cdn.digitaloceanspaces.com/chains-images/ArbitrumOne.png",
-    "rpcUrl": "https://arbitrum-rpc.publicnode.com",
+    "rpcUrl": "https://arbitrum-sepolia-rpc.publicnode.com",
     "explorerAccountUrl": "https://sepolia.arbiscan.io/address/:address",
     "explorerAccountWithAssetUrl": "https://sepolia.arbiscan.io/token/:contractAddress?a=:address",
     "explorerTransactionUrl": "https://sepolia.arbiscan.io/tx/:hash",
