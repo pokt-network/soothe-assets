@@ -7,50 +7,49 @@
     "currencySymbol": "POKT",
     "decimals": 6,
     "isTestnet": true,
-    "isDefault": true,
+    "isDefault": false,
     "coinGeckoId": "",
     "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
     "rpcUrl": "https://rpc.testnet.pokt.network/lb/6d6f727365/",
-    "explorerAccountUrl": "https://poktscan.com/testnet/account/:address",
-    "explorerTransactionUrl": "https://poktscan.com/testnet/tx/:hash",
+    "explorerAccountUrl": "https://morse.pocket.network/testnet/account/:address",
+    "explorerTransactionUrl": "https://morse.pocket.network/testnet/tx/:hash",
     "chainIdLabel": "Pocket (Morse Testnet)",
     "transferMinValue": "0.000001",
     "notices": [
       {
-        "name": "WPOKT-Not-Supported",
-        "descriptionTitle": "Swap Not Supported",
-        "disables": ["Swap"],
-        "descriptionContent": "The WPOKT bridge in testnet is to Ethereum Goerli, and it has been deprecated.",
-        "references": [
-          {
-            "title": "Say Goodbye to Goerli and Hello to Sepolia!",
-            "url": "https://www.alchemy.com/blog/goerli-faucet-deprecation" 
-          }
-        ]
+        "name": "Morse-Shutdown",
+        "descriptionTitle": "Morse network has been shut down",
+        "disables": [
+          "Balance",
+          "Send",
+          "Swap",
+          "PoktTransactionActions"
+        ],
+        "descriptionContent": "The Pocket Morse chain is no longer producing blocks, so balances and transactions are not available. Migrate your Morse accounts to Shannon (Pocket Mainnet) to access your POKT."
       }
     ]
   },
   {
     "id": "b0ca2a2b-dc82-43d7-80cf-008355f779d1",
-    "label": "Pocket (Shannon)",
+    "label": "Pocket Mainnet",
     "protocol": "Cosmos",
     "chainId": "pocket",
     "currencySymbol": "POKT",
     "decimals": 6,
     "isTestnet": false,
     "isDefault": true,
-    "coinGeckoId": "",
-    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
-    "rpcUrl": "https://sauron-rpc.infra.pocket.network",
+    "coinGeckoId": "pocket-network",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Shannon.png",
+    "rpcUrl": "https://sauron-rpc.infra.pocket.network/",
+    "explorerAccountUrl": "https://poktscan.com/account/:address",
+    "explorerTransactionUrl": "https://poktscan.com/tx/:hash",
     "apiUrl": "https://sauron-api.infra.pocket.network",
-    "explorerAccountUrl": "https://shannon-mainnet.poktscan.com/account/:address",
-    "explorerTransactionUrl": "https://shannon-mainnet.poktscan.com/tx/:hash",
-    "chainIdLabel": "Pocket Shannon",
+    "chainIdLabel": "Mainnet",
     "transferMinValue": "0.000001",
     "addressPrefix": "pokt",
     "isProtocolDefault": true,
     "defaultGasPrice": 0.001,
-    "defaultGasAdjustment": 1.1,
+    "defaultGasAdjustment": 1.5,
     "defaultGasUsed": "auto",
     "defaultGasEstimation": 200000,
     "pocketFeePresets": [
@@ -58,14 +57,14 @@
         "id": "c5c267d5-a3a6-409e-8a06-73db4edd8dfc",
         "name": "low",
         "gasPrice": 0.001,
-        "gasAdjustment": 1.1,
+        "gasAdjustment": 1.5,
         "gasUsed": "auto"
       },
       {
         "id": "7842f7b8-ed27-4de8-ae77-bd9ecb026254",
         "name": "avg",
         "gasPrice": 0.001,
-        "gasAdjustment": 1.5,
+        "gasAdjustment": 1.7,
         "gasUsed": "auto"
       },
       {
@@ -76,87 +75,30 @@
         "gasUsed": "auto"
       }
     ],
-    "wip": {
-      "name": "WIP",
-      "color": "#e2eeff",
-      "descriptionTitle": "Ongoing Implementation",
-      "descriptionContent": "We are implementing this network in Soothe. You might encounter some bugs or features that do not work."
-    }
-  },
-  {
-    "id": "4a46fe7d-3f8d-43fa-bad4-a08a52be6584",
-    "label": "Pocket (Shannon Alpha)",
-    "protocol": "Cosmos",
-    "chainId": "pocket-alpha",
-    "currencySymbol": "POKT",
-    "decimals": 6,
-    "isTestnet": true,
-    "isDefault": false,
-    "coinGeckoId": "",
-    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
-    "rpcUrl": "https://sauron-rpc.alpha.infra.pocket.network",
-    "apiUrl": "https://sauron-api.alpha.infra.pocket.network/",
-    "explorerAccountUrl": "https://shannon-alpha.poktscan.com/account/:address",
-    "explorerTransactionUrl": "https://shannon-alpha.poktscan.com/tx/:hash",
-    "chainIdLabel": "Pocket Shannon (Alpha)",
-    "transferMinValue": "0.000001",
-    "addressPrefix": "pokt",
-    "isProtocolDefault": false,
-    "defaultGasPrice": 0.001,
-    "defaultGasAdjustment": 1.1,
-    "defaultGasUsed": "auto",
-    "defaultGasEstimation": 200000,
-    "pocketFeePresets": [
-      {
-        "id": "c5c267d5-a3a6-409e-8a06-73db4edd8dfc",
-        "name": "low",
-        "gasPrice": 0.001,
-        "gasAdjustment": 1.1,
-        "gasUsed": "auto"
-      },
-      {
-        "id": "7842f7b8-ed27-4de8-ae77-bd9ecb026254",
-        "name": "avg",
-        "gasPrice": 0.001,
-        "gasAdjustment": 1.5,
-        "gasUsed": "auto"
-      },
-      {
-        "id": "6171659f-e48c-4787-98ed-9854b2495108",
-        "name": "high",
-        "gasPrice": 0.001,
-        "gasAdjustment": 2,
-        "gasUsed": "auto"
-      }
-    ],
-    "wip": {
-      "name": "WIP",
-      "color": "#e2eeff",
-      "descriptionTitle": "Ongoing Implementation",
-      "descriptionContent": "We are implementing this network in Soothe. You might encounter some bugs or features that do not work."
-    }
+    "faucet": "https://faucet.pocket.network/",
+    "memoMaxLength": 256
   },
   {
     "id": "9f8f42b8-4ddc-480d-99c6-395d3aacc69d",
-    "label": "Pocket (Shannon Beta)",
+    "label": "Pocket Beta",
     "protocol": "Cosmos",
     "chainId": "pocket-lego-testnet",
     "currencySymbol": "POKT",
     "decimals": 6,
     "isTestnet": true,
-    "isDefault": false,
+    "isDefault": true,
     "coinGeckoId": "",
-    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
+    "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Shannon.png",
     "rpcUrl": "https://sauron-rpc.beta.infra.pocket.network",
-    "apiUrl": "https://sauron-api.beta.infra.pocket.network/",
-    "explorerAccountUrl": "https://shannon-beta.poktscan.com/account/:address",
-    "explorerTransactionUrl": "https://shannon-beta.poktscan.com/tx/:hash",
-    "chainIdLabel": "Pocket Shannon (Beta)",
+    "explorerAccountUrl": "https://beta.poktscan.com/account/:address",
+    "explorerTransactionUrl": "https://beta.poktscan.com/tx/:hash",
+    "apiUrl": "https://sauron-api.beta.infra.pocket.network",
+    "chainIdLabel": "Beta",
     "transferMinValue": "0.000001",
     "addressPrefix": "pokt",
     "isProtocolDefault": false,
     "defaultGasPrice": 0.001,
-    "defaultGasAdjustment": 1.1,
+    "defaultGasAdjustment": 1.5,
     "defaultGasUsed": "auto",
     "defaultGasEstimation": 200000,
     "pocketFeePresets": [
@@ -164,14 +106,14 @@
         "id": "c5c267d5-a3a6-409e-8a06-73db4edd8dfc",
         "name": "low",
         "gasPrice": 0.001,
-        "gasAdjustment": 1.1,
+        "gasAdjustment": 1.5,
         "gasUsed": "auto"
       },
       {
         "id": "7842f7b8-ed27-4de8-ae77-bd9ecb026254",
         "name": "avg",
         "gasPrice": 0.001,
-        "gasAdjustment": 1.5,
+        "gasAdjustment": 1.7,
         "gasUsed": "auto"
       },
       {
@@ -182,12 +124,8 @@
         "gasUsed": "auto"
       }
     ],
-    "wip": {
-      "name": "WIP",
-      "color": "#e2eeff",
-      "descriptionTitle": "Ongoing Implementation",
-      "descriptionContent": "We are implementing this network in Soothe. You might encounter some bugs or features that do not work."
-    }
+    "faucet": "https://faucet.beta.testnet.pokt.network/",
+    "memoMaxLength": 256
   },
   {
     "id": "572e4ef2-2875-4315-8d87-e032ee0958a0",
@@ -201,11 +139,24 @@
     "isDefault": true,
     "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Pocket.png",
     "rpcUrl": "https://pocket.tango.admin.poktscan.cloud",
-    "explorerAccountUrl": "https://poktscan.com/account/:address",
-    "explorerTransactionUrl": "https://poktscan.com/tx/:hash",
+    "explorerAccountUrl": "https://morse.pocket.network/account/:address",
+    "explorerTransactionUrl": "https://morse.pocket.network/tx/:hash",
     "chainIdLabel": "Pocket (Morse Mainnet)",
     "transferMinValue": "0.000001",
-    "isProtocolDefault": true
+    "isProtocolDefault": true,
+    "notices": [
+      {
+        "name": "Morse-Shutdown",
+        "descriptionTitle": "Morse network has been shut down",
+        "disables": [
+          "Balance",
+          "Send",
+          "Swap",
+          "PoktTransactionActions"
+        ],
+        "descriptionContent": "The Pocket Morse chain is no longer producing blocks, so balances and transactions are not available. Migrate your Morse accounts to Shannon (Pocket Mainnet) to access your POKT."
+      }
+    ]
   },
   {
     "id": "9073bf35-e2f7-4354-a011-8bb84f352fe8",
@@ -383,7 +334,7 @@
     "isTestnet": true,
     "isDefault": false,
     "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/ArbitrumOne.png",
-    "rpcUrl": "https://arbitrum-rpc.publicnode.com",
+    "rpcUrl": "https://arbitrum-sepolia-rpc.publicnode.com",
     "explorerAccountUrl": "https://sepolia.arbiscan.io/address/:address",
     "explorerAccountWithAssetUrl": "https://sepolia.arbiscan.io/token/:contractAddress?a=:address",
     "explorerTransactionUrl": "https://sepolia.arbiscan.io/tx/:hash",
@@ -444,7 +395,7 @@
     "chainIdLabel": "Avalanche Mainnet",
     "transferMinValue": "0.000000000000000000"
   },
-   {
+  {
     "id": "c1460a93-559f-4495-b55e-5f2245b7d21e",
     "label": "Avalanche Fuji",
     "protocol": "Ethereum",
@@ -492,7 +443,7 @@
     "isDefault": false,
     "iconUrl": "https://pokt-network.github.io/soothe-assets/chains-images/Fantom.png",
     "rpcUrl": "https://fantom-testnet-rpc.publicnode.com",
-     "explorerAccountUrl": "https://testnet.ftmscan.com/address/:address",
+    "explorerAccountUrl": "https://testnet.ftmscan.com/address/:address",
     "explorerAccountWithAssetUrl": "https://testnet.ftmscan.com/token/:contractAddress?a=:address",
     "explorerTransactionUrl": "https://testnet.ftmscan.com/tx/:hash",
     "chainIdLabel": "Fantom Testnet",
